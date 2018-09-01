@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Full-pg Img Gallery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Flex styles -------------------------------------------------*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+ .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+
+/* Generic styles ----------------------------------------------*/
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  padding: 10px;
+  font-size: 2em;
+  color: white;
+  background-color: #333;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  color: white;
+  background: url('https://cdn.glitch.com/a5121e34-96b3-4a70-8227-040c51e64fae%2Fcat.jpg?1509635989509') center #333 no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 0px 5px #000;
+}
+
+.leading-bigtext {
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 24vw;
+}
+
+@media (min-width: 700px) {
+  .leading-bigtext {
+    font-size: 140px;
+  }
+}
+
+.leading-text {
+  max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+      <a href="#" alt="our company" class="logo">
+      <img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/samsung/100/cat_1f408.png" alt="Our Logo" class="logo-img">
+        <h1 class="logo-text">Our Company</h1>
+      </a>
+    </header>
+    <main class="main">
+      <section class="info1">
+        <h2>The Title</h2>
+        <p>Some Text goes here, more text goes here, other text goes here, some text goes here.</p>
+        <a href="#" class="info-link">Learn more...</a>
+      </section>
+      <figure class="figure1">
+         <img class="figure-img" src="http://placekitten.com/g/350/200" alt="a kitten">
+      </figure>
+      <figure class="figure2">
+         <img class="figure-img" src="http://placekitten.com/g/300/200" alt="a kitten">
+      </figure>
+      <figure class="figure3">
+         <img class="figure-img" src="http://placekitten.com/g/500/500" alt="a kitten">
+      </figure>
+      <figure class="figure4">
+         <img class="figure-img" src="http://placekitten.com/g/460/460" alt="a kitten">
+      </figure>
+      <figure class="figure5">
+         <img class="figure-img" src="http://placekitten.com/g/210/300" alt="a kitten">
+      </figure>
+      <figure class="figure6">
+         <img class="figure-img" src="http://placekitten.com/g/330/250" alt="a kitten">
+      </figure>
+      <section class="info2">
+        <h2>The Title</h2>
+        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+        <a href="#" class="info-link">Learn more...</a>
+      </section>
+      <figure class="figure7">
+         <img class="figure-img" src="http://placekitten.com/g/300/150" alt="a kitten">
+      </figure>
+      <figure class="figure7">
+         <img class="figure-img" src="http://placekitten.com/g/370/190" alt="a kitten">
+      </figure>
+    </main>
+    <aside class="sidebar"></aside>
+    <footer class="footer"></footer>
+  </body>
+</html>
