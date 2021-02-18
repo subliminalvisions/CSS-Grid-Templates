@@ -7,12 +7,7 @@
 .main-nav {
   grid-area: nav;
 }
-.side {
-  grid-area: sidebar;
-}
-.ad {
-  grid-area: ad;
-}
+
 .main-footer {
   grid-area: footer;
 }
