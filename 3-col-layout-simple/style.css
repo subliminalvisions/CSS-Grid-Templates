@@ -6,7 +6,7 @@
 	align-items: normal;
 	align-content: normal;
 }
-  
+
   .flex-items:nth-child(1) {
 	display: block;
 	flex-grow: 0;
@@ -15,7 +15,8 @@
 	align-self: auto;
 	order: 0;
   }
-  
+
+  /* don't need specific style for each but you get the idea */
   .flex-items:nth-child(2) {
 	display: block;
 	flex-grow: 0;
@@ -34,5 +35,30 @@
 	order: 0;
   }
   
-
+  .flex-items:nth-child(4) {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+  }
+  
+  .flex-items:nth-child(5) {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+  }
+  
+  .flex-items:nth-child(6) {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+  }
   
