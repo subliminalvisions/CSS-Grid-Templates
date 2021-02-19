@@ -1,0 +1,12 @@
+.flex6 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .flex6-child {
+	width: 32%;
+	padding-bottom: 18%; /* Proportions between 32 and 18 is 16:9 */
+	margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+  
